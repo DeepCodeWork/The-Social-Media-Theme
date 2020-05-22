@@ -1,0 +1,57 @@
+body{
+    background: #333;
+    color: white;
+}
+
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.7;
+}
+
+#home-section{
+    background: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height: 700px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+#home-section .card-form{
+    opacity: 0.8;
+}
+
+#home-section .fa{
+    color: #008ed6;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#contactForm{
+    padding-top:250px;
+    background:rgba(0, 0, 0, 0.7);
+}
+
+#contactFormBox{
+    border-radius: 4px;
+}
+
+.fa-times-circle{
+    color: #008ed6;
+    background-color: white;
+    padding: 5px;
+    
+}
